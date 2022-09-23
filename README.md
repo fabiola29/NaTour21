@@ -1,4 +1,4 @@
-# ![logo](https://user-images.githubusercontent.com/60442414/188369790-571996e3-1958-4b6b-b722-dde6c4fc5182.png) NaTour21
+# <img width="50" alt="logo" src="https://user-images.githubusercontent.com/60442414/191938109-99aa1c95-0219-48de-bc17-b7ea6de1d6d6.png"> NaTour22
 
 
 Progetto di Ingegneria del software I 21/22
