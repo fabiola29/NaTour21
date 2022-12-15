@@ -3,4 +3,6 @@
 
 Progetto di Ingegneria del software I 21/22
 
+● INGSW2122_S_14
 ● Salomone Fabiola - N86002870 - email: fab.salomone@studenti.unina.it
+
