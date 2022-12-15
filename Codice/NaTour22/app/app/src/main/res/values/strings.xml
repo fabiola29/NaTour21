@@ -1,0 +1,166 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NaTour2022</string>
+
+    <!-- Activity Start !-->
+    <string name="activity_main_textView_nomeApp">NaTour22</string>
+    <string name="activity_main_button_sign_in">Sign in</string>
+    <string name="activity_main_button_sign_up">Sing Up</string>
+
+    <!-- Fragment Sign In !-->
+    <string name="fragment_sign_in_textEdit_nomeApp">NaTour22</string>
+    <string name="fragment_sign_in_text_input_email">E-mail</string>
+    <string name="fragment_sign_in_text_input_password">Password</string>
+    <string name="fragment_sign_in_button_sign_in">Sing in</string>
+    <string name="fragment_sign_in_invalid_auth">Invalid e-mail or password</string>
+    <string name="fragment_sign_in_invalid_email">Invalid e-mail format</string>
+    <string name="fragment_sign_in_enter_email">Enter your e-mail</string>
+    <string name="fragment_sign_in_enter_pass">Enter your password</string>
+    <string name="fragment_sign_in_format_password">The password must have at least 8 characters, one uppercase, one lowercase character and at least one number</string>
+
+
+    <!-- Fragment Sign Up !-->
+    <string name="fragment_sign_up_textEdit_nomeApp">NaTour22</string>
+    <string name="fragment_sign_up_text_input_email">E-mail</string>
+    <string name="fragment_sign_up_text_input_nickname">Nickname</string>
+    <string name="fragment_sign_up_text_input_password">Password</string>
+    <string name="fragment_sign_up_text_input_birth">Date of birth (dd/mm/yyyy)</string>
+    <string name="fragment_sign_up_text_input_gender">Gender (Female or Male)</string>
+    <string name="fragment_sign_up_button_sign_up">Sign up</string>
+    <string name="fragment_sign_up_invalid_login">The user is already registered with this email. Use another email</string>
+    <string name="fragment_sign_up_invalid_nickname">Nickname already in use, you can choose another one</string>
+    <string name="fragment_sign_up_invalid_format_email">Invalid email format</string>
+    <string name="fragment_sign_up_enter_email">Enter email</string>
+    <string name="fragment_sign_up_enter_nickname">Enter nickname</string>
+    <string name="fragment_sign_up_enter_password">Enter password</string>
+    <string name="fragment_sign_up_enter_birth">Enter your date of birth</string>
+    <string name="fragment_sign_up_enter_gender">Enter your gender</string>
+    <string name="fragment_sign_up_invalid_format_gender">Invalid email gender</string>
+    <string name="fragment_sign_up_format_password">The password must have at least 8 characters, one uppercase, one lowercase character and at least one number</string>
+
+    <!-- Fragment Home !-->
+    <string name="fragment_home_nameApp">NaTour22</string>
+    <string name="fragment_home_Explore">Explore</string>
+    <string name="fragment_home_Plan">Plan</string>
+    <string name="fragment_home_LogOut">LogOut</string>
+    <string name="fragment_home_Profile">Profile</string>
+
+
+    <!-- Toast messages -->
+    <string name="toast_warning_internet_connection">Please check your internet connection or try again later.</string>
+    <string name="toast_error_network_error">A network error has occurred, try again later.</string>
+    <string name="toast_error_unknown_error">An unknown error occurred, try again.</string>
+    <string name="toast_error_user_not_exists">User does not exists or is no longer valid. Please register again</string>
+    <string name="toast_error_credentials_err">Invalid credentials. Kindly, check and re-enter</string>
+    <string name="toast_warning_duplicate_images">Duplicate images not allowed!</string>
+
+    <!-- Motion Toast -->
+    <string name="motion_toast_success">Success</string>
+    <string name="motion_toast_error">Error</string>
+    <string name="motion_toast_warning">Warning</string>
+    <string name="motion_toast_info">Info</string>
+
+    <!-- Fragment Plan -->
+    <string name="fragment_plan_text_name">Itinerary planning </string>
+    <string name="fragment_plan_text_input_name"> Itinerary name </string>
+    <string name="fragment_plan_text_input_description"> Description itinerary </string>
+    <string name="fragment_plan_text_input_difficulty_itinerary">Difficult/Simple/Medium </string>
+    <string name="fragment_plan_text_input_hours"> Hours </string>
+    <string name="fragment_plan_text_input_minutes"> Minutes </string>
+    <string name="fragment_plan_text_input_seconds"> Seconds </string>
+    <string name="fragment_plan_button_cancel"> Cancel </string>
+    <string name="fragment_plan_button_confirmation"> Confirmation </string>
+    <string name="fragment_plan_add_file_GPX"> Add file GPX </string>
+    <string name="fragment_plan_text_textView_GPX"> Import file GPX: </string>
+    <string name="fragment_plan_text_add_images"> Import one image: </string>
+    <string name="fragment_plan_text_add_map"> Select the point of arrival and destination: </string>
+    <string name="fragment_plan_enter_name_itinerary">Enter title itinerary</string>
+    <string name="fragment_plan_enter_start_itinerary">Enter destination of departure</string>
+    <string name="fragment_plan_enter_end_itinerary">Enter destination of arrival</string>
+    <string name="fragment_plan_enter_description_itinerary">Enter description itinerary</string>
+    <string name="fragment_plan_enter_difficultyLevel_itinerary">Enter difficulty level itinerary</string>
+    <string name="fragment_plan_enter_difficultyLevel_itinerary_choice">Choose between: medium, difficult and simple</string>
+    <string name="fragment_plan_enter_hours_itinerary">Enter duration in hours of the itinerary</string>
+    <string name="fragment_plan_enter_minutes_itinerary">Enter duration in minutes of the itinerary</string>
+    <string name="fragment_plan_enter_second_itinerary">Enter duration in seconds of the itinerary</string>
+    <string name="fragment_plan_enter_format_hours_correct">Please enter an hour value less than 100</string>
+    <string name="fragment_plan_enter_format_minutes_correct">Please enter a minute value less than 60</string>
+    <string name="fragment_plan_enter_format_seconds_correct">Please enter a value for seconds less than 60</string>
+    <string name="fragment_plan_itinerary_coming">Destination of departure</string>
+    <string name="fragment_plan_itinerary_arrival">Destination of arrival</string>
+    <string name="fragment_plan_itinerary_invalid_title">Title must contain at least 30 characters</string>
+    <string name="fragment_plan_itinerary_invalid_description">Description must contain at least 150 characters</string>
+
+    <!-- Fragment Map -->
+    <string name="fragment_Map_public"> Public </string>
+
+    <!-- Fragment Explore -->
+    <string name="fragment_explore_textEdit_title_explore">NaTour22</string>
+    <string name="fragment_explore_textEdit_subTitle_explore">Explore Itinerary</string>
+
+    <!-- Fragment Row Itinerary -->
+    <string name="fragment_row_textEdit_title">Itinerary Title</string>
+    <string name="fragment_row_textEdit_email_user">Email user</string>
+
+    <!-- Fragment Details Itinerary -->
+    <string name="fragment_detailsItinerary_textView_title">NaTour22</string>
+    <string name="fragment_detailsItinerary_textView_subTitle">Details Itinerary</string>
+    <string name="fragment_detailsItinerary_textView_hours">Hours :</string>
+    <string name="fragment_detailsItinerary__insert_hours">N/A</string>
+    <string name="fragment_detailsItinerary_textView_minutes">Minutes :</string>
+    <string name="fragment_detailsItinerary__insert_minutes">N/A</string>
+    <string name="fragment_detailsItinerary_textView_seconds">Seconds :</string>
+    <string name="fragment_detailsItinerary__insert_seconds">N/A</string>
+    <string name="fragment_detailsItinerary_textView_difficultLivel">Difficult Livel :</string>
+    <string name="fragment_detailsItinerary__insert_difficultLivel">N/A</string>
+    <string name="fragment_detailsItinerary_textView_titleItinerary">Title of Itinerary</string>
+    <string name="fragment_detailsItinerary_textView_description">Description of Itinerary</string>
+    <string name="fragment_detailsItinerary__insert_description">N/A</string>
+    <string name="fragment_detailsItinerary_textView_map">Map Itinerary</string>
+    <string name="fragment_detailsItinerary_button_views_review">Views Reviews</string>
+    <string name="fragment_detailsItinerary_button_insert_review">Insert Reviws</string>
+    <string name="Latitudine" />
+    <string name="Longitudine" />
+
+    <!-- Fragment Insert Review -->
+    <string name="fragment_insert_review_text_name">Insert Review</string>
+    <string name="fragment_review_text_input_title_review"> Title review </string>
+    <string name="fragment_review_text_input_description"> Description </string>
+    <string name="fragment_review_text_input_voteItinerary"> Vote of itinerary from 0 to 9 </string>
+    <string name="fragment_review_text_input_dateReview">Date of write review</string>
+    <string name="fragment_detailsItinerary_text_importImages">Imports images </string>
+    <string name="fragment_review_button_cancel">Cancel</string>
+    <string name="fragment_review_button_confirmation">Confirmation</string>
+    <string name="fragment_post_review_enter_title">Enter review title</string>
+    <string name="fragment_post_review_enter_description">Enter review description</string>
+    <string name="fragment_post_review_enter_date">Enter date of public review</string>
+    <string name="fragment_post_review_enter_vote">Enter vote itinerary from 0 to 9</string>
+    <string name="fragment_post_review_invalid_vote">Enter a value from 0 to 9 </string>
+    <string name="fragment_post_review_invalid_title">Title must contain at least 30 characters</string>
+    <string name="fragment_post_review_enter_invalid_description">Description must contain at least 150 characters</string>
+    <string name="fragment_post_review_enter_invalid_data">The date must have the following format dd/mm/yyyy , dd-mm-yyyy or dd.mm.yyyy</string>
+
+    <!-- Fragment Row Reviews -->
+    <string name="fragment_row_textEdit_title_review">Review Title</string>
+    <string name="fragment_row_textEdit_email_user_reviews">Email user</string>
+    <string name="fragment_row_textEdit_description_review">Description of Review</string>
+    <string name="fragment_row_textEdit_vote_review">Vote of Review : </string>
+    <string name="fragment_vote_row_list_view_reviews">N/A</string>
+    <string name="fragment_row_textEdit_description_row_review_layout">Description :</string>
+
+
+    <!-- Fragment View Reviews -->
+    <string name="fragment_view_reviews_textEdit_title">NaTour22</string>
+    <string name="fragment_view_reviews_textEdit_subTitle">View Reviews</string>
+
+    <!-- Fragment Profile -->
+    <string name="fragment_profile_textEdit_title">Profile</string>
+    <string name="fragment_profile_textEdit_email">Email: </string>
+    <string name="fragment_profile_textEdid_email_user">N/A</string>
+    <string name="fragment_profile_textEdit_nickname">Nickname: </string>
+    <string name="fragment_profile_textEdit_nickname_user">N/A</string>
+    <string name="fragment_profile_textEdit_birth">Data of birth: </string>
+    <string name="fragment_profile_textEdit_birth_user">N/A</string>
+    <string name="fragment_profile_textEdit_gender">Gender: </string>
+    <string name="fragment_profile_textEdit_gender_user">N/A</string>
+
+</resources>
