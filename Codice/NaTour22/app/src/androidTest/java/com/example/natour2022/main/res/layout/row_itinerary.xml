@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="#9ABA7D"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="0dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:background="@color/grey">
+
+            <!-- ImageView itinerary !-->
+
+            <ImageView
+                android:id="@+id/imageView_row_itinerary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <!-- ProgressBar itinerary image !-->
+
+            <ProgressBar
+                android:id="@+id/progressBar_row_itinerary"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="46dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <!--title itinerary !-->
+
+        <TextView
+            android:id="@+id/title_row_itinerary"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="255dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/fragment_row_textEdit_title"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!--email user !-->
+
+        <TextView
+            android:id="@+id/email_user_row_itinerary"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="255dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/title_row_itinerary"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/fragment_row_textEdit_email_user"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
